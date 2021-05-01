@@ -1,0 +1,134 @@
+/*ESTILOS NetApp*/
+
+.fixed {
+	position: fixed;
+	background: rgba(16,16,33,0.8);
+	left: 0;
+	width: 100%;
+	z-index:3;
+	top: 35px;
+}
+.fixed .menuprincipal { margin-top: 0; }
+	
+body {font-family: 'Open Sans', sans-serif; background:url(../imagenes/fondo.jpg); background-repeat:no-repeat; background-size:contain; background-color:#eeefee; font-weight:normal; margin:0px; background-attachment:fixed;}
+.container{ width:90%; margin-right:auto; margin-left:auto; padding-left:15px; padding-right:15px; z-index:1; position:relative;}
+.logos { display:table; width:100%;}
+.logo { display:table; width:24%; float:left; margin-top:40px; margin-left:0px; margin-bottom:20px;} .logo img { width:100%;}
+.logo2 { display:table; width:20%; float:right; margin-top:40px;} .logo2 img { width:100%;}
+.menuprincipal { display:table; width:100%; padding-top:0px; margin-top: -35px; }
+
+p {font-size: 14px; color: #0a1321; line-height: 20px;} 
+h2 {display: table; background: #006CB0; font-size: 20px; color: #fff; font-weight: 400; width: 97%; padding:7px; padding-left: 20px;}
+
+nav ul {
+overflow: hidden;
+color: #eee;
+padding: 0px;
+text-align: left;
+height:50px;
+margin: 0px;
+-webkit-transform: max-height 0.4s;
+-moz-transform: max-height 0.4s;
+-ms-transform: max-height 0.4s;
+-o-transform: max-height 0.4s;
+transform: max-height 0.4s;
+}
+nav ul li {
+display: inline-block;
+font-size:15px;
+padding-top:10px;
+padding-bottom:8px;
+line-height:23px;
+color:#fff;
+	padding-left: 20px; padding-right: 20px;
+}
+nav ul li:hover {
+background-color:rgba(250,250,250,0.1); height:23px; color:#fff;
+}
+nav a { color:#c7c7c7; font-size:15px; text-decoration:none !important; 
+}
+.fin nav ul li  { display:table; border-right:1px solid #c7c7c7;}
+nav ul li .fin { display:table; border-right:1px solid #c7c7c7;}
+.handle {
+width: 100%;
+text-align: left;
+box-sizing: border-box;
+padding: 10px;
+cursor: pointer;
+color: #fff;
+font-weight:600;
+font-size:14px;
+display: none;
+background:none;
+}
+
+.miga { display:table; background:rgba(255,255,255,0.8); width:100%; font-size:11px; color:#666; padding-top:10px; padding-bottom:7px; margin-bottom:13px;}
+.miga a { font-size:11px; color:#FD86A4; text-decoration:none;}
+#contacto { display:table; width:100%;}
+
+.contenido { display: table; width: 100%; background-color:#eeefee;}
+.destacado { display: table; width: 100%; background: #ffffff; position: relative; margin-bottom: 100px;}
+.imgdestacado { width: 45%; float: left; position: relative;right: 0; bottom: -80px;} .imgdestacado img {width: 100%;}
+.text-destacado {display: table; width: 50%; float: left; text-align: center; padding-top: 50px; padding-left: 2%; padding-right: 2%;  }
+.text-destacado h3 { font-size: 28px; line-height: 33px; text-align: center; text-transform: uppercase;  color: #41406C; font-weight: 400; margin-bottom: 5px;}
+.text-destacado h1 { font-size: 34px; line-height: 38px; text-align: center; text-transform: uppercase; color: #41406C;font-weight: 600; margin-top: 0; margin-bottom: 40px;}
+.text-destacado p { font-size: 16px; font-weight: 500; color: #41406C;}
+.iconos { display: table; width: 45%; float: left; padding-left: 50px; padding-right: 40px; margin-top: -80px; margin-bottom: 50px; text-align: center; font-size: 10px; text-transform: uppercase; color: #41406C;}
+.icono { display: table; width: 25%; float: left;} .icono img {width: 100%;}
+.registro {display: table;  width: 97%; margin-bottom: 30px; padding: 20px; padding-bottom: 0;}
+.registro p { text-align: center; color: #41406C;}
+.formulario {display: table; width: 100%; margin-bottom: 20px;}
+.btn-enviar { display: table; width: auto; background: #006CB0; text-transform: uppercase; color: #fff; text-align: center; padding: 7px; padding-left: 50px; padding-right: 50px; margin-top: 20px;  margin-left: auto; margin-right: auto;}
+.comoganar {width: 97%; margin-bottom: 30px; padding: 20px; padding-bottom: 0;}
+.text-comoganar {display: table;margin-left: 20px; }
+.text-comoganar p, .text-comoganar li {color: #41406C; font-size: 14px;}
+.prizes {display: table; width: 97%; margin-bottom: 30px; padding: 20px; margin-bottom: 50px;}
+.prod { display: table; width: 33%; float: left; text-align: center;} .prod img {  margin-left: auto; margin-right: auto;height: 160px;}
+.prodV { display: table; width: 25%; float: left; text-align: center;} .prodV img {  margin-left: auto; margin-right: auto;height: 160px;}
+.prod p { font-size: 16px; color: #41406C; font-weight: 600; width: 100%;}
+.ppvi { font-size: 13px; color: #41406C; font-weight: 600; width: 100%;margin-left: 5%;}
+.contacto { display: table; width: 100%; background: #006CB0; padding-top: 10px; padding-bottom: 10px; color: #fff; text-align: right;}
+.contacto p {color: #fff;}
+
+@media (max-width:1080px){
+.container{width:95%;}
+	.logo { width: 200px;}
+	.text-destacado {padding-top: 20px;}
+	.text-destacado h3 { font-size: 24px;}
+	.text-destacado h1 { font-size: 30px;}
+	.prod img {height: 125px;}
+}
+@media (max-width:1000px){
+	.container{width:97%;}.menuprincipal{ margin-top: -15px;}
+	.logo { width: 200px;}
+	.logo2 {width: 150px;}
+	.text-destacado {padding-top: 20px;}
+	.text-destacado h3 { font-size: 20px; line-height: 25px;}
+	.text-destacado h1 { font-size: 24px; line-height: 28px;}
+	.text-destacado p { font-size: 14px;}
+	.prod img {height: 125px;}
+	.iconos { width: 87%; padding-top: 20px;}
+}
+@media (max-width:800px){
+.container{width:90%;}
+	.text-destacado { width: 97%;}
+	.imgdestacado { width: 100%; bottom: -7px; margin-top: 20px;}
+}
+
+@media (max-width: 1100px) and (min-width: 810px) {
+nav ul { height:45px;}
+nav ul li { display:inherit; padding:2.5%; line-height:35px;}
+nav ul li { padding-left:0.6%; padding-right:0.6%;} 
+}
+@media (max-width: 999px) and (min-width: 768px) {
+}
+
+@media screen and (max-width : 800px) {
+.container {width:95%; overflow:hidden;}
+nav ul {max-height: 0px; height:auto; background:#fff;}
+.showing {max-height: 24em;}
+nav ul li {box-sizing: border-box; width: 100%; padding: 15px; text-align: left; border-left:none; border-bottom:1px solid #999; color:#999;}
+nav ul li:hover { height:45px; color:#000; padding:15px;}
+.handle {display: block;}
+nav ul li:hover { height:50px;}
+}

@@ -1,0 +1,3 @@
+$(function(){
+	dataTables('example1');
+});
